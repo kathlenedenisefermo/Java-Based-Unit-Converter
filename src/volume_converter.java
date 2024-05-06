@@ -74,14 +74,14 @@ public class volume_converter extends javax.swing.JFrame {
             }
         });
 
-        outputUnitComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Kiloliters", "Milliliters", "Gallons", "Quarts", "Pints", "Cups", "Fluid Ounces", "Tablespoons", "Teaspoons"}));
+        outputUnitComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Kiloliters", "Liters", "Milliliters", "Gallons", "Quarts", "Pints", "Cups", "Fluid Ounces", "Tablespoons", "Teaspoons"}));
         outputUnitComboBox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 outputUnitComboBoxActionPerformed(evt);
             }
         });
 
-        inputUnitComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Kiloliters", "Milliliters", "Gallons", "Quarts", "Pints", "Cups", "Fluid Ounces", "Tablespoons", "Teaspoons"}));
+        inputUnitComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Kiloliters", "Liters", "Milliliters", "Gallons", "Quarts", "Pints", "Cups", "Fluid Ounces", "Tablespoons", "Teaspoons"}));
         inputUnitComboBox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 inputUnitComboBoxActionPerformed(evt);

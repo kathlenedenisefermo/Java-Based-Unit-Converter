@@ -196,7 +196,7 @@
         <Component class="javax.swing.JComboBox" name="outputUnitComboBox">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-              <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;Kiloliters&quot;, &quot;Milliliters&quot;, &quot;Gallons&quot;, &quot;Quarts&quot;, &quot;Pints&quot;, &quot;Cups&quot;, &quot;Fluid Ounces&quot;, &quot;Tablespoons&quot;, &quot;Teaspoons&quot;})" type="code"/>
+              <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;Kiloliters&quot;, &quot;Liters&quot;, &quot;Milliliters&quot;, &quot;Gallons&quot;, &quot;Quarts&quot;, &quot;Pints&quot;, &quot;Cups&quot;, &quot;Fluid Ounces&quot;, &quot;Tablespoons&quot;, &quot;Teaspoons&quot;})" type="code"/>
             </Property>
           </Properties>
           <Events>
@@ -209,7 +209,7 @@
         <Component class="javax.swing.JComboBox" name="inputUnitComboBox">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-              <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;Kiloliters&quot;, &quot;Milliliters&quot;, &quot;Gallons&quot;, &quot;Quarts&quot;, &quot;Pints&quot;, &quot;Cups&quot;, &quot;Fluid Ounces&quot;, &quot;Tablespoons&quot;, &quot;Teaspoons&quot;})" type="code"/>
+              <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;Kiloliters&quot;, &quot;Liters&quot;, &quot;Milliliters&quot;, &quot;Gallons&quot;, &quot;Quarts&quot;, &quot;Pints&quot;, &quot;Cups&quot;, &quot;Fluid Ounces&quot;, &quot;Tablespoons&quot;, &quot;Teaspoons&quot;})" type="code"/>
             </Property>
           </Properties>
           <Events>
