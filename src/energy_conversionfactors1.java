@@ -52,8 +52,12 @@ public class energy_conversionfactors1 extends javax.swing.JFrame {
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMaximumSize(new java.awt.Dimension(570, 375));
+        setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(34, 0, 34));
+        jPanel1.setMaximumSize(new java.awt.Dimension(570, 375));
+        jPanel1.setPreferredSize(new java.awt.Dimension(570, 375));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/energy.png"))); // NOI18N
         jLabel1.setText("jLabel1");
@@ -106,7 +110,7 @@ public class energy_conversionfactors1 extends javax.swing.JFrame {
                     .addComponent(jLabel2))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(159, Short.MAX_VALUE)
+                .addContainerGap(149, Short.MAX_VALUE)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(157, 157, 157))
         );
@@ -137,7 +141,7 @@ public class energy_conversionfactors1 extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();

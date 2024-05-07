@@ -42,6 +42,7 @@ public class speed_conversionfactors extends javax.swing.JFrame {
         jLabel16.setText("Back to Homepage");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(34, 0, 34));
 
